@@ -1,0 +1,85 @@
+    :root {
+        --background-color : #FFFFFF;
+        --secondary-color : #e8eced;
+        --black-color: #000000;
+        --hover-color: #4b9e22;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Cairo', sans-serif;
+        background-color:var(--background-color) ;
+        text-align: center;
+    }
+
+    .register {
+        margin: 7% auto 0 auto;
+    }
+
+    .register img {
+        width: 300px;
+        max-width: 100%;
+    }
+
+    .register h2 { 
+            margin: 25px auto;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 8px;
+    }
+
+    #registerForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #registerForm input {
+        margin: 10px;
+        padding: 11px;
+        width: 320px;
+        height: 60px;
+        border: 2px solid var(--secondary-color);
+        font-size: 18px;
+        
+    }
+
+    .registerBtn { 
+        width: 320px;
+        height: 60px;
+        margin: 20px auto;
+        font-size: 20px;
+        text-transform: uppercase;
+        border: none;
+        background-color: var(--black-color);
+        color: var(--background-color);
+        transition: all .3s ease;
+    }
+
+    .registerBtn:hover {
+        background-color: var(--hover-color);
+    }
+
+    .backBtn {
+        width: 320px;
+        height: 50px;
+        margin: auto;
+        font-size: 20px;
+        border: none;
+        background-color: var(--secondary-color);
+        color: var(--black-color);
+        transition: all .3s ease;
+    }
+
+    .backBtn:hover {
+        color: var(--hover-color);
+    }
